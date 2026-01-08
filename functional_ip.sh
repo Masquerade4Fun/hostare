@@ -3,6 +3,8 @@
 DNS_SERVER="1.1.1.1"
 HOSTS_FILE="/etc/hosts"
 
+# Anleglift a fost aici
+
 resolve_first_a() {
   local host="$1" dns="$2"
   # I can see you
